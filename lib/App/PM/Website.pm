@@ -3,13 +3,13 @@ use warnings;
 
 package App::PM::Website;
 {
-  $App::PM::Website::VERSION = '0.122420';
+  $App::PM::Website::VERSION = '0.122450';
 }
 #use App::Cmd::Setup -app;
 use base 'App::Cmd';
 
 
-#ABSTRACT: tools for maintaining the a perl mongers (webDav) website
+#ABSTRACT: tools for maintaining a perl mongers (webDav) website
 
 1;
 
@@ -18,11 +18,11 @@ __END__
 
 =head1 NAME
 
-App::PM::Website - tools for maintaining the a perl mongers (webDav) website
+App::PM::Website - tools for maintaining a perl mongers (webDav) website
 
 =head1 VERSION
 
-version 0.122420
+version 0.122450
 
 =head1 AUTHOR
 

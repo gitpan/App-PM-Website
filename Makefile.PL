@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "tools for maintaining the a perl mongers (webDav) website",
+  "ABSTRACT" => "tools for maintaining a perl mongers (webDav) website",
   "AUTHOR" => "Andrew Grangaard <spazm\@cpan.org>",
   "BUILD_REQUIRES" => {
     "App::Cmd::Tester" => 0,
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "Date::Parse" => 0,
     "DateTime" => 0,
     "DateTime::Format::Strptime" => 0,
-    "File::Path" => 0,
+    "File::Path" => "2.07",
     "File::Spec" => 0,
     "HTTP::DAV" => 0,
     "Lingua::EN::Numbers::Ordinate" => 0,
@@ -49,7 +49,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.122420",
+  "VERSION" => "0.122450",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -1,6 +1,6 @@
 package App::PM::Website::Command;
 {
-  $App::PM::Website::Command::VERSION = '0.122420';
+  $App::PM::Website::Command::VERSION = '0.122450';
 }
 #use App::Cmd::Setup -command;
 use strict;
@@ -147,7 +147,7 @@ App::PM::Website::Command - Parent class for App::PM::Website commands
 
 =head1 VERSION
 
-version 0.122420
+version 0.122450
 
 =head1 AUTHOR
 

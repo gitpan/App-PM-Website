@@ -1,10 +1,7 @@
 #!/usr/bin/perl
 
-package main;
-{
-  $main::VERSION = '0.122420';
-}
-#ABSTRACT: command line front end to App::PM::Website
+# PODNAME: pm-website
+# ABSTRACT: command line front end to App::PM::Website
 
 use warnings;
 use strict;
@@ -16,11 +13,11 @@ __END__
 
 =head1 NAME
 
-main - command line front end to App::PM::Website
+pm-website - command line front end to App::PM::Website
 
 =head1 VERSION
 
-version 0.122420
+version 0.122450
 
 =head1 AUTHOR
 
