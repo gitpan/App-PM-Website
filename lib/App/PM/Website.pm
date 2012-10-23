@@ -3,7 +3,7 @@ use warnings;
 
 package App::PM::Website;
 {
-  $App::PM::Website::VERSION = '0.122450';
+  $App::PM::Website::VERSION = '0.122970';
 }
 #use App::Cmd::Setup -app;
 use base 'App::Cmd';
@@ -22,7 +22,7 @@ App::PM::Website - tools for maintaining a perl mongers (webDav) website
 
 =head1 VERSION
 
-version 0.122450
+version 0.122970
 
 =head1 AUTHOR
 

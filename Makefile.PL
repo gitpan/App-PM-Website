@@ -37,6 +37,7 @@ my %WriteMakefileArgs = (
     "File::Path" => "2.07",
     "File::Spec" => 0,
     "HTTP::DAV" => 0,
+    "IO::TieCombine" => 0,
     "Lingua::EN::Numbers::Ordinate" => 0,
     "Net::Netrc" => 0,
     "POSIX" => 0,
@@ -49,7 +50,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.122450",
+  "VERSION" => "0.122970",
   "test" => {
     "TESTS" => "t/*.t"
   }
