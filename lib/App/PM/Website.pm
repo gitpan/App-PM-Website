@@ -3,7 +3,7 @@ use warnings;
 
 package App::PM::Website;
 {
-  $App::PM::Website::VERSION = '0.131590';
+  $App::PM::Website::VERSION = '0.131591';
 }
 #use App::Cmd::Setup -app;
 use base 'App::Cmd';
@@ -19,7 +19,7 @@ App::PM::Website
 
 =head1 VERSION
 
-version 0.131590
+version 0.131591
 
 =head1 SYNOPSIS
 
@@ -72,8 +72,8 @@ Initialize a configuration yaml file with the necessary keys
 
 Builds the index file (F<website/index.html>) by rendering the
 template (F<template/index.in>) with TemplateToolkit. The template
-is passed a models describing the next meeting, past meetings, presenters
-and locations.
+is passed models describing the next meeting and location, past
+meetings, presenters and locations. See L</Model>.
 
 =item C<pm-website install>
 

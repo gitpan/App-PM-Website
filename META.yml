@@ -42,4 +42,4 @@ requires:
 resources:
   homepage: http://lowlevelmanager.com/
   repository: http://github.com/spazm/app-pm-website.git
-version: 0.131590
+version: 0.131591

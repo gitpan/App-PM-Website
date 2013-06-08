@@ -3,7 +3,7 @@ use warnings;
 
 package App::PM::Website::Command::Install;
 {
-  $App::PM::Website::Command::Install::VERSION = '0.131590';
+  $App::PM::Website::Command::Install::VERSION = '0.131591';
 }
 use base 'App::PM::Website::Command';
 use Net::Netrc;
@@ -153,7 +153,7 @@ App::PM::Website::Command::Install - install the built website into production v
 
 =head1 VERSION
 
-version 0.131590
+version 0.131591
 
 =head1 AUTHOR
 
