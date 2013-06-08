@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution App-PM-Website,
-version 0.122970:
+version 0.131590:
 
-  tools for maintaining a perl mongers (webDav) website
+  Use C<pm-website> to render and maintain an up-to-date info page
 
 This software is copyright (c) 2012 by Andrew Grangaard.
 

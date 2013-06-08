@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "tools for maintaining a perl mongers (webDav) website",
+  "ABSTRACT" => "Use C<pm-website> to render and maintain an up-to-date info page",
   "AUTHOR" => "Andrew Grangaard <spazm\@cpan.org>",
   "BUILD_REQUIRES" => {
     "App::Cmd::Tester" => 0,
@@ -50,7 +50,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.122970",
+  "VERSION" => "0.131590",
   "test" => {
     "TESTS" => "t/*.t"
   }

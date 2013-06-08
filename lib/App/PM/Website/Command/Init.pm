@@ -3,7 +3,7 @@ use warnings;
 
 package App::PM::Website::Command::Init;
 {
-  $App::PM::Website::Command::Init::VERSION = '0.122970';
+  $App::PM::Website::Command::Init::VERSION = '0.131590';
 }
 use base 'App::PM::Website::Command';
 use YAML::Any;
@@ -31,8 +31,6 @@ sub options
 sub validate
 {
     my ($self, $opt, $args ) = @_;
-    $self->validate_required_dir($opt,'build_dir');
-
     die $self->usage_error( "no arguments allowed") if @$args;
 
     return 1;
@@ -137,7 +135,7 @@ App::PM::Website::Command::Init - create skeleton config/pm-website.yaml
 
 =head1 VERSION
 
-version 0.122970
+version 0.131590
 
 =head1 AUTHOR
 

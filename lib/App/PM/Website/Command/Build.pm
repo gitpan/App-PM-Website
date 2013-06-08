@@ -3,7 +3,7 @@ use warnings;
 
 package App::PM::Website::Command::Build;
 {
-  $App::PM::Website::Command::Build::VERSION = '0.122970';
+  $App::PM::Website::Command::Build::VERSION = '0.131590';
 }
 use base 'App::PM::Website::Command';
 
@@ -17,9 +17,9 @@ sub options
     my ($class, $app) = @_;
 
     return (
-        [ 'template_dir=s' => 'template dir path',
+        [ 'template-dir=s' => 'template dir path',
             { default => "template" } ],
-        [ 'build_dir=s' => 'build dir path',
+        [ 'build-dir=s' => 'build dir path',
             { default => "./website" } ],
         [ 'date=s' => 'which month to build',
             { default => scalar $class->today() } ],
@@ -101,7 +101,7 @@ App::PM::Website::Command::Build - render the website to local disk from the con
 
 =head1 VERSION
 
-version 0.122970
+version 0.131590
 
 =head1 AUTHOR
 

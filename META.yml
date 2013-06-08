@@ -1,5 +1,5 @@
 ---
-abstract: 'tools for maintaining a perl mongers (webDav) website'
+abstract: 'Use C<pm-website> to render and maintain an up-to-date info page'
 author:
   - 'Andrew Grangaard <spazm@cpan.org>'
 build_requires:
@@ -10,7 +10,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112621'
+generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -42,4 +42,4 @@ requires:
 resources:
   homepage: http://lowlevelmanager.com/
   repository: http://github.com/spazm/app-pm-website.git
-version: 0.122970
+version: 0.131590
