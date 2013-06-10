@@ -3,7 +3,7 @@ use warnings;
 
 package App::PM::Website::Command::Init;
 {
-  $App::PM::Website::Command::Init::VERSION = '0.131610';
+  $App::PM::Website::Command::Init::VERSION = '0.131611';
 }
 use base 'App::PM::Website::Command';
 use YAML::Any;
@@ -135,7 +135,7 @@ App::PM::Website::Command::Init - create skeleton config/pm-website.yaml
 
 =head1 VERSION
 
-version 0.131610
+version 0.131611
 
 =head1 AUTHOR
 

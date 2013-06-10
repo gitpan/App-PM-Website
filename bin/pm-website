@@ -19,7 +19,7 @@ pm-website - command line front end to App::PM::Website
 
 =head1 VERSION
 
-version 0.131610
+version 0.131611
 
 =head1 SYNOPSIS
 

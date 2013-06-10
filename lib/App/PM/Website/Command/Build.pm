@@ -3,7 +3,7 @@ use warnings;
 
 package App::PM::Website::Command::Build;
 {
-  $App::PM::Website::Command::Build::VERSION = '0.131610';
+  $App::PM::Website::Command::Build::VERSION = '0.131611';
 }
 use base 'App::PM::Website::Command';
 
@@ -101,7 +101,7 @@ App::PM::Website::Command::Build - render the website to local disk from the con
 
 =head1 VERSION
 
-version 0.131610
+version 0.131611
 
 =head1 AUTHOR
 
