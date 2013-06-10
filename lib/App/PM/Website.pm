@@ -3,7 +3,7 @@ use warnings;
 
 package App::PM::Website;
 {
-  $App::PM::Website::VERSION = '0.131591';
+  $App::PM::Website::VERSION = '0.131610';
 }
 #use App::Cmd::Setup -app;
 use base 'App::Cmd';
@@ -19,7 +19,7 @@ App::PM::Website
 
 =head1 VERSION
 
-version 0.131591
+version 0.131610
 
 =head1 SYNOPSIS
 
@@ -148,17 +148,9 @@ hash of presenter information keyed by presenter id.
 
 =over
 
-=item L<Template Toolkit>
+=item * L<Template::Toolkit>
 
-=item la.pm.org
-
-=over
-
-=item L<Website|http://la.pm.org>
-
-=item L<Source|https://github.com/spazm/la.pm.org>
-
-=back
+=item * la.pm.org: example L<Website|http://la.pm.org> L<Source|https://github.com/spazm/la.pm.org>
 
 =item L<PM Group Hosting FAQ|http://www.pm.org/faq/hosting_faq.html#www>
 
